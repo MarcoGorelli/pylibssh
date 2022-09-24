@@ -136,6 +136,11 @@ repos:
 #     entry: python -m pylint
 #     args: []
 
+- repo: https://github.com/MarcoGorelli/cython-lint
+  rev: v0.1.7
+  hooks:
+  - id: cython-lint
+
 - repo: local
   hooks:
   - id: enforced-flake8-version
